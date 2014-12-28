@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -eu
+set -o xtrace
+
+install-packages puppet ruby1.9.1-full
+sudo gem install r10k
